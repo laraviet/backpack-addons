@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Look & feel customizations
@@ -15,7 +14,7 @@ return [
     'project_name' => 'Backpack',
 
     // Menu logos
-    'logo_lg'   => '<b>Back</b>pack',
+    'logo_lg' => '<b>Back</b>pack',
     'logo_mini' => '<b>B</b>p',
 
     // Developer or company name. Shown in footer.
@@ -33,7 +32,7 @@ return [
 
     // Date & Datetime Format Syntax: https://github.com/jenssegers/date#usage
     // (same as Carbon)
-    'default_date_format'     => 'j F Y',
+    'default_date_format' => 'j F Y',
     'default_datetime_format' => 'j F Y H:i',
 
     // Content of the HTML meta robots tag to prevent indexing and link following
@@ -105,7 +104,7 @@ return [
     // Username column for authentication
     // The Backpack default is the same as the Laravel default (email)
     // If you need to switch to username, you also need to create that column in your db
-    'authentication_column'      => 'email',
+    'authentication_column' => 'email',
     'authentication_column_name' => 'Email',
 
     // The guard that protects the Backpack admin panel.

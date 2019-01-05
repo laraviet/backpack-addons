@@ -1,18 +1,21 @@
 {
     "name": "laraviet/backpack2fa",
-    "description": ":description",
+    "description": "Apply Google Authenticator to Laravel Backpack project",
     "license": "license",
     "authors": [
         {
-            "name": "author name",
-            "email": "author email",
-            "homepage": "author homepage"
+            "name": "Nguyen Trung Thanh",
+            "email": "thanhcttsp@gmail.com",
+            "homepage": "http://portalbeanzvn.com"
         }
     ],
     "homepage": "https://github.com/laraviet/backpack2fa",
     "keywords": ["Laravel", "Backpack2FA"],
     "require": {
-        "illuminate/support": "~5"
+        "illuminate/support": "~5",
+        "backpack/crud": "^3.5",
+        "bacon/bacon-qr-code": "^1.0.3",
+        "pragmarx/google2fa-laravel": "^0.2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~7.0",
