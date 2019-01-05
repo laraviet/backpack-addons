@@ -1,0 +1,43 @@
+{
+    "name": "laraviet/backpack2fa",
+    "description": ":description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "author name",
+            "email": "author email",
+            "homepage": "author homepage"
+        }
+    ],
+    "homepage": "https://github.com/laraviet/backpack2fa",
+    "keywords": ["Laravel", "Backpack2FA"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laraviet\\Backpack2FA\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Laraviet\\Backpack2FA\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laraviet\\Backpack2FA\\Backpack2FAServiceProvider"
+            ],
+            "aliases": {
+                "Backpack2FA": "Laraviet\\Backpack2FA\\Facades\\Backpack2FA"
+            }
+        }
+    }
+}
