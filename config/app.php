@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Laraviet\BackpackUI1\BackpackUI1ServiceProvider::class,
         Laraviet\Backpack2FA\Backpack2FAServiceProvider::class,
 
         /*

@@ -40,6 +40,7 @@
     },
     "autoload": {
         "psr-4": {
+            "Laraviet\\BackpackUI1\\": "packages/Laraviet/BackpackUI1/src",
             "Laraviet\\Backpack2FA\\": "packages/Laraviet/Backpack2FA/src",
             "App\\": "app/"
         },
@@ -50,6 +51,7 @@
     },
     "autoload-dev": {
         "psr-4": {
+            "Laraviet\\BackpackUI1\\": "packages/Laraviet/BackpackUI1/src",
             "Laraviet\\Backpack2FA\\": "packages/Laraviet/Backpack2FA/src",
             "Tests\\": "tests/"
         }
