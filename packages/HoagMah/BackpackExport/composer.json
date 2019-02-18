@@ -1,0 +1,45 @@
+{
+    "name": "hoagmah/backpackexport",
+    "description": ":description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "Hoag Mah",
+            "email": "mynameishoangmanh@gmail.com",
+            "homepage": "https://github.com/HoagMah/BackpackExport"
+        }
+    ],
+    "homepage": "https://github.com/HoagMah/BackpackExport",
+    "keywords": ["Laravel", "BackpackExport"],
+    "require": {
+        "illuminate/support": "~5",
+        "barryvdh/laravel-dompdf": "^0.8.3",
+        "maatwebsite/excel": "^3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HoagMah\\BackpackExport\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HoagMah\\BackpackExport\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HoagMah\\BackpackExport\\BackpackExportServiceProvider"
+            ],
+            "aliases": {
+                "BackpackExport": "HoagMah\\BackpackExport\\Facades\\BackpackExport"
+            }
+        }
+    }
+}
