@@ -1,7 +1,7 @@
 <?php
 namespace HoagMah\BackpackExport\Traits;
 
-use PDF;
+use Barryvdh\DomPDF\PDF;
 
 trait Export
 {
